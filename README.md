@@ -17,7 +17,7 @@ Link to a screen recording of the project: https://drive.google.com/file/d/1FHxs
 
 
 
-## Screenshots
+# Screenshots
 
 1. ML studio showing the **Registered Bankmarketing Dataset** in the Datasets section.
 
