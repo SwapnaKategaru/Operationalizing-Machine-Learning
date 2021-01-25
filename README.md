@@ -57,6 +57,31 @@
 
 ![](images/screenshot11.png)
 
+9. Pipeline section of ML Studio showing **Pipeline created**
+
+![](images/screenshot12.png)
+
+10. Pipeline section of ML Studio showing **Pipeline endpoint**
+
+![](images/screenshot13.png)
+
+11. Designer section showing **Bankmarketing dataset with AutoML module**
+
+![](images/screenshot14.png)
+
+12. Published pipeline overview showing **Status as Active**
+
+![](images/screenshot15.png)
+
+![](images/screenshot16.png)
+
+13. Jupyter notebook with RunDetails Widget
+
+![](images/screenshot17.png)
+
+12. ML studio showing **Scheduled runs**(first 2 runs are the pipeline runs)
+
+![](images/screenshot18.png)
 
 
 
