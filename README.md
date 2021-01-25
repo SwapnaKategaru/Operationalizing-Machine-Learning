@@ -13,3 +13,53 @@
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+
+
+
+## Screenshots
+
+1. ML studio showing the **Registered Bankmarketing Dataset** in the Datasets section.
+
+![](images/screenshot1.png)
+
+2. AutoML experiment showing the **status as Completed**.
+
+![](images/screenshot2.png)
+
+3. **Best Model** obtained through automl experiment run.
+
+![](images/screenshot3.png)
+
+4. Details tab of endpoint having **Application insights as Enabled**
+
+![](images/screenshot4.png)
+
+5. Running **logs.py script** showing the logs 
+
+![](images/screenshot5.png)
+
+![](images/screenshot6.png)
+
+6. **Swagger** running on local host representing HTTP API methods and responses for the model 
+
+![](images/screenshot7.png)
+
+![](images/screenshot8.png)
+
+![](images/screenshot9.png)
+
+7. endpoint.py script run producing **Json output** from model
+
+![](images/screenshot10.png)
+
+8. **Apache Benchmark** run against HTTP API with authentication keys to retrieve performance results.
+
+![](images/screenshot11.png)
+
+
+
+
+
+
+
