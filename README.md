@@ -79,7 +79,7 @@
 
 ![](images/screenshot17.png)
 
-12. ML studio showing **Scheduled runs**(first 2 runs are the pipeline runs)
+14. ML studio showing **Scheduled runs**(first 2 runs are the pipeline runs)
 
 ![](images/screenshot18.png)
 
