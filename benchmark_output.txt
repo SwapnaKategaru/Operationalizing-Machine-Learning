@@ -1,0 +1,190 @@
+$ bash benchmark.sh
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking REPLACE_WITH_API_URL (be patient)...apr_sockaddr_info_get() for REPLACE_WITH_API_URL: No such host is known.   (731001)
+INFO: POST header ==
+---
+POST /score HTTP/1.0
+Content-length: 812
+Content-type: application/json
+Authorization: Bearer REPLACE_WITH_KEY
+Host: REPLACE_WITH_API_URL
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+
+demouser@labvm MINGW64 ~/Desktop/nd00333_AZMLND_C2-master/starter_files
+$ bash benchmark.sh
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 2ce53a0d-e86e-4ed5-b8f4-66f4a434c2ef.southcentralus.azurecontainer.io (be patient)...INFO: POST header ==
+---
+POST /score HTTP/1.0
+Content-length: 812
+Content-type: application/json
+Authorization: Bearer aVjbdjcjUiKfCVQQWoMavX7XUjViUSaa
+Host: 2ce53a0d-e86e-4ed5-b8f4-66f4a434c2ef.southcentralus.azurecontainer.io
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:39 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: baa75f56-d93c-40b9-9469-2c639d87e076
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:39 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 606e5ea4-32cd-4db2-b453-3f3f8f1fef38
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:39 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: d08dd955-25ec-40c1-91f4-c93ab703e24f
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:39 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 09bf34c8-60e3-43ff-b15b-9f24c5b493cc
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:39 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 6b383535-4e41-4dde-a919-fcb64b81e448
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:40 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 41bfa1ea-1daa-4089-b7e4-5bda82a1301b
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:40 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: b172540a-db81-4110-958c-98baeee63414
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:40 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: acb75175-baae-493d-a39a-a49b4171daa3
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:40 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: f419e815-8c20-4d8d-82ba-2e0374bcede8
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 33
+Content-Type: application/json
+Date: Sun, 24 Jan 2021 08:44:40 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 62d2f796-cb76-4363-8187-3f0f84ee4cbb
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"yes\", \"no\"]}"
+LOG: Response code = 200
+..done
+
+
+Server Software:        nginx/1.10.3
+Server Hostname:        2ce53a0d-e86e-4ed5-b8f4-66f4a434c2ef.southcentralus.azurecontainer.io
+Server Port:            80
+
+Document Path:          /score
+Document Length:        33 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.993 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2600 bytes
+Total body sent:        10640
+HTML transferred:       330 bytes
+Requests per second:    10.07 [#/sec] (mean)
+Time per request:       99.289 [ms] (mean)
+Time per request:       99.289 [ms] (mean, across all concurrent requests)
+Transfer rate:          2.56 [Kbytes/sec] received
+                        10.47 kb/s sent
+                        13.02 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1    2   0.5      2       2
+Processing:    88   98   9.6     96     114
+Waiting:       88   97   9.9     96     114
+Total:         90   99   9.8     98     115
+
+Percentage of the requests served within a certain time (ms)
+  50%     98
+  66%     99
+  75%    110
+  80%    112
+  90%    115
+  95%    115
+  98%    115
+  99%    115
+ 100%    115 (longest request)
+
+demouser@labvm MINGW64 ~/Desktop/nd00333
