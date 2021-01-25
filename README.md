@@ -9,7 +9,7 @@
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Link to a screen recording of the project: https://drive.google.com/file/d/1FHxsxyyNDZ4_y9eYTh_8RK_9yV8OOLKC/view?usp=sharing
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
