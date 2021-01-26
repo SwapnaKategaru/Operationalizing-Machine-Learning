@@ -76,7 +76,7 @@ This notebook demonstrates the use of AutoML step in Azure Machine Learning Pipe
 
 
 ## 1.4 Screen Recording
-Link to a screen recording of the project: https://drive.google.com/file/d/1FHxsxyyNDZ4_y9eYTh_8RK_9yV8OOLKC/view?usp=sharing
+The screencast video is present in files with name "project video.mp4".
 
 ## 1.5 Standout Suggestions
 Used Apache Benchmark to benchmark the endpoint that evaluates and shows the performance results. Benchmark runs against HTTP API successfully.
