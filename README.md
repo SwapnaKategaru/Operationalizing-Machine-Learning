@@ -1,6 +1,17 @@
 # Operationalizing Machine Learning
 
 ## Overview of the project
+This project uses Bankmarketing Dataset. We configure a cloud based machine learning model that is deployed and consumed followed by creating, publishing and consuming a pipeline.
+
+* In the first part of the project, we create and run AutoML experiment through Azure Machine Learning studio.
+* The automl run through ml studio with best model is deployed and consumed.
+* The second part shows python sdk using jupyter notebook to create AutoML run through pipeline class.
+* The pipeline run is published and consumed after completion.
+
+The best model summary for AutoML run in ML studio is **Voting Ensemble** with an accuracy of 0.91927.
+The best model summary produced by automl module for pipeline run is **Voting Ensemble** with an AUC weighted of 0.94709.
+![](images/screenshot21.png)
+
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
@@ -60,7 +71,7 @@ This notebook demonstrates the use of AutoML step in Azure Machine Learning Pipe
 Link to a screen recording of the project: https://drive.google.com/file/d/1FHxsxyyNDZ4_y9eYTh_8RK_9yV8OOLKC/view?usp=sharing
 
 ## Standout Suggestions
-Used Apache Benchmark to benchmark the endpoint that evaluates and shows the performance results.
+Used Apache Benchmark to benchmark the endpoint that evaluates and shows the performance results. Benchmark runs against HTTP API successfully.
 
 
 
