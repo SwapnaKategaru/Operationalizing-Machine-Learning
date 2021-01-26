@@ -1,12 +1,12 @@
 # Operationalizing Machine Learning
 
 ## Index
-1.1 Overview of the project
-1.2 Architectural Diagram
-1.3 Key Steps
-1.4 Screen Recording
-1.5 Standout Suggestions
-1.6 Screenshots
+* 1.1 Overview of the project
+* 1.2 Architectural Diagram
+* 1.3 Key Steps
+* 1.4 Screen Recording
+* 1.5 Standout Suggestions
+* 1.6 Screenshots
 
 ## 1.1 Overview of the project
 This project uses Bankmarketing Dataset. We configure a cloud based machine learning model that is deployed and consumed followed by creating, publishing and consuming a pipeline.
