@@ -1,6 +1,14 @@
 # Operationalizing Machine Learning
 
-## Overview of the project
+## Index
+1.1 Overview of the project
+1.2 Architectural Diagram
+1.3 Key Steps
+1.4 Screen Recording
+1.5 Standout Suggestions
+1.6 Screenshots
+
+## 1.1 Overview of the project
 This project uses Bankmarketing Dataset. We configure a cloud based machine learning model that is deployed and consumed followed by creating, publishing and consuming a pipeline.
 
 * In the first part of the project, we create and run AutoML experiment through Azure Machine Learning studio.
@@ -13,10 +21,10 @@ This project uses Bankmarketing Dataset. We configure a cloud based machine lear
 * ![](images/screenshot21.png)
 
 
-## Architectural Diagram
+## 1.2 Architectural Diagram
 ![](images/flowchart.png)
 
-## Key Steps
+## 1.3 Key Steps
 
 ### Step 1: Creating an AutoML experiment
 Create a new AutoML run by uploading and register of Bankmarketing Dataset followed by configuration of new compute cluster(Standard_DS12_v2) and run the experiment using Classification by enabling Explain best model parameter.
@@ -67,15 +75,15 @@ This notebook demonstrates the use of AutoML step in Azure Machine Learning Pipe
 
 
 
-## Screen Recording
+## 1.4 Screen Recording
 Link to a screen recording of the project: https://drive.google.com/file/d/1FHxsxyyNDZ4_y9eYTh_8RK_9yV8OOLKC/view?usp=sharing
 
-## Standout Suggestions
+## 1.5 Standout Suggestions
 Used Apache Benchmark to benchmark the endpoint that evaluates and shows the performance results. Benchmark runs against HTTP API successfully.
 
 
 
-# Screenshots
+# 1.6 Screenshots
 
 1. ML studio showing the **Registered Bankmarketing Dataset** in the Datasets section.
 
