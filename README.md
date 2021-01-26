@@ -8,9 +8,9 @@ This project uses Bankmarketing Dataset. We configure a cloud based machine lear
 * The second part shows python sdk using jupyter notebook to create AutoML run through pipeline class.
 * The pipeline run is published and consumed after completion.
 
-The best model summary for AutoML run in ML studio is **Voting Ensemble** with an accuracy of 0.91927.
-The best model summary produced by automl module for pipeline run is **Voting Ensemble** with an AUC weighted of 0.94709.
-![](images/screenshot21.png)
+* The best model summary for AutoML run in ML studio is **Voting Ensemble** with an accuracy of 0.91927.
+* The best model summary produced by automl module for pipeline run is **Voting Ensemble** with an AUC weighted of 0.94709.
+* ![](images/screenshot21.png)
 
 
 ## Architectural Diagram
