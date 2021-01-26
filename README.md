@@ -6,7 +6,8 @@
 * 1.3 Key Steps
 * 1.4 Screen Recording
 * 1.5 Standout Suggestions
-* 1.6 Screenshots
+* 1.6 Future improvement of project
+* 1.7 Screenshots
 
 ## 1.1 Overview of the project
 This project uses Bankmarketing Dataset. We configure a cloud based machine learning model that is deployed and consumed followed by creating, publishing and consuming a pipeline.
@@ -81,9 +82,15 @@ The screencast video is present in files with name "**project video.mp4**".
 ## 1.5 Standout Suggestions
 Used Apache Benchmark to benchmark the endpoint that evaluates and shows the performance results. Benchmark runs against HTTP API successfully.
 
+## 1.6 Future improvement of project
+* GPU can be used instead of CPU as it enormously increases the speed.
+* We can use modules available in designer like feature engineering and feature selection while pipeline automl run as it improves the model accuracy.
+* Enable deep learning while specifying classification task type for autoML as it applies default techniques depending on the number of rows present in training dataset provided   and applies train/validation split with required no.of cross validations without explicitly being provided.
+* Use Azure Kubernetes Services(AKS) instead of Azure Container Insance(ACI) as AKS helps in minimizing infrastructure maintenance, uses automated upgrades, repairs, monitoring   and scaling. This leads to faster development and integration.
+* Use Dedicated virtual machine instead of low-priority as these vm do not guarantee compute nodes.
 
 
-# 1.6 Screenshots
+# 1.7 Screenshots
 
 1. ML studio showing the **Registered Bankmarketing Dataset** in the Datasets section.
 
