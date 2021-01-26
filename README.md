@@ -6,7 +6,26 @@
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+
+### Step 1: Creating an AutoML experiment
+Create a new AutoML run by uploading and register of Bankmarketing Dataset followed by configuration of new compute cluster(Standard_DS12_v2) and run the experiment using Classification by enabling Explain best model parameter.
+
+### Step 2: Deployment of best model
+After the experiment ends, best model from models tab is selected for deployment. The best model is deployed using Azure Container Instance by enabling Authentication.
+
+### Step 3: Enabling Logging
+Enable application insights and retrieve logs by running logs.py script. Service gets updated and Application insights get enabled to True in Details tab for the endpoint.
+
+### Step 4: Consume deployed model using Swagger
+
+
+### Step 5: Consume model endpoints
+
+### Step 6: Benchmark the endpoint using Apache bench
+
+### Step 7: Create, Publish and Consume a Pipeline
+
+
 
 ## Screen Recording
 Link to a screen recording of the project: https://drive.google.com/file/d/1FHxsxyyNDZ4_y9eYTh_8RK_9yV8OOLKC/view?usp=sharing
